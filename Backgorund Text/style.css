@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+h1
+{
+  text-align: center;
+  font-size: 100px;
+  background-clip: text;
+  background: url(simon-spring-cIVf8uLzLU0-unsplash.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  color: transparent;
+}
