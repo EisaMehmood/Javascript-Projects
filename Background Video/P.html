@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+     // CALLBACK HELL
+
+    //
+    console.log("Start");
+    function getuserdatafromDB(n, callback)
+    {
+      setInterval(() => {
+      console.log("Getting User Name");
+      callback(n);
+     }, 2000);
+    }
+    //
+    function getuserhobbies(h , callback)
+    {
+     setInterval(() => {
+      console.log("Getting User Hobbies");
+      callback(h);
+     }, 2000);
+    }
+
+    getuserdatafromDB("Eisa", (data)=>{
+      console.log(data);
+      getuserhobbies("RAP", (h)=>
+    {
+      console.log(h);
+    })
+    })
+    console.log("End");
+   
+
+  </script>
+</body>
+</html>
