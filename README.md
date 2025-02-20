@@ -11,11 +11,17 @@ Feel free to explore the projects, contribute, or get inspired! 🌟
 
 Below are the JavaScript projects I've uploaded to this repository. You can click on the project name to view the details.
 
-### 1. [Project Name #1](#) 💡
+### 1. Background Video 💡
 
-### 2. [Project Name #2](#) ⚡
+### 2. Background Text ⚡
 
-### 3. [Project Name #3](#) 🌍
+### 3. Creative Javascript Art 🌍
+
+### 4. Cursor Movement 💡
+
+### 5. Hover Line Bars ⚡
+
+### 6. Image Gallery 🌍
 
 ---
 
