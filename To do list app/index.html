@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <h1>TO DO App</h1>
+    <p id="description">This app helps you manage your tasks effectively.</p>
+    <div class="datetime" id="currentDateTime"></div>
+    <div class="container">
+    </div>
+    <ol class="task-list" id="taskList">
+        <li>Task</li>
+    </ol>
+    <div class="container">
+        <input type="text" class="newTask" placeholder="Enter a new task">
+        <button class="addTask">Add Task</button>
+        
+        <script src="app.js"></script>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Display and update the current date and time
+        function updateDateTime() {
+            const now = new Date();
+            const formattedDate = now.toLocaleString();
+            $('#currentDateTime').text(formattedDate);
+        }
+        setInterval(updateDateTime, 1000);
+
+        // Toggle the visibility of the paragraph
+        $('#toggleDescription').click(function() {
+            $('#description').toggle();
+        });
+        </script>
+</div>
+</body>
+</html>
