@@ -23,6 +23,14 @@ Below are the JavaScript projects I've uploaded to this repository. You can clic
 
 ### 6. Image Gallery 🌍
 
+### 7. Dynamic Image Frame
+
+### 8. Random Color Generator
+
+### 9. Day and Night 
+
+### 10. To Do List with Current Time
+
 ---
 
 ## Technologies Used 💻
@@ -31,6 +39,7 @@ These are the technologies and tools I use for my JavaScript projects:
 
 - JavaScript (ES6+)
 - HTML & CSS
+- Gsap
 - Git & GitHub
 
 ---
